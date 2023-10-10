@@ -14,7 +14,7 @@ app.use(cors(
 ))
 
 try {
-    mongoose.connect(process.env.DATABASE_LOCAL, {
+    mongoose.connect(process.env.DATABASE, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     })

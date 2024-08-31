@@ -12,7 +12,7 @@ app.use(cors(
     credentials:true
     }
 ))
-
+console.log(process.env.PASS)
 try {
     mongoose.connect(process.env.DATABASE, {
         useNewUrlParser: true,
